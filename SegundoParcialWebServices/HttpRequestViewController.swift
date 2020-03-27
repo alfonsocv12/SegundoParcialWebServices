@@ -31,15 +31,19 @@ class HttpRequestViewController: UIViewController,
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        AF.request("http://www.mocky.io/v2/5e7d02bb3500007f8806a29").validate().responseDecodable(of: [Student].self) { (response) in guard let studentElements = response.value else {
-                return
-            }
-            print(studentElements)
-            
-            DispatchQueue.main.async {
-                self.studentElementsArray = studentElements
-                self.studentCollection.reloadData()
-            }
+        AF.request("http://www.mocky.io/v2/5e7d02bb3500007f8806a298")
+            .validate()
+            .responseDecodable(of: [Student].self) { (response) in
+                guard let studentElements = response.value else {
+                    return
+                }
+                print(studentElements)
+                
+                DispatchQueue.main.async {
+                                self.studentElementsArray = studentElements
+                                self.studentCollection.reloadData()
+                            }
+
         }
     }
 }
