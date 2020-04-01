@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1836A62B24342EE300E9CED3 /* DetailStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836A62A24342EE300E9CED3 /* DetailStudentViewController.swift */; };
 		18A9FE2E242D7C460043808A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE2D242D7C460043808A /* AppDelegate.swift */; };
 		18A9FE30242D7C460043808A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE2F242D7C460043808A /* SceneDelegate.swift */; };
 		18A9FE32242D7C460043808A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE31242D7C460043808A /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		08317687319EA96888B48539 /* Pods-SegundoParcialWebServicesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegundoParcialWebServicesTests.debug.xcconfig"; path = "Target Support Files/Pods-SegundoParcialWebServicesTests/Pods-SegundoParcialWebServicesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1836A62A24342EE300E9CED3 /* DetailStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStudentViewController.swift; sourceTree = "<group>"; };
 		18A9FE2A242D7C460043808A /* SegundoParcialWebServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegundoParcialWebServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A9FE2D242D7C460043808A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A9FE2F242D7C460043808A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				18A9FE5D242D80530043808A /* HttpRequestViewController.swift */,
 				18A9FE5F242D810C0043808A /* Student.swift */,
 				18A9FE61242D83B00043808A /* StudentCollectionViewCell.swift */,
+				1836A62A24342EE300E9CED3 /* DetailStudentViewController.swift */,
 			);
 			path = SegundoParcialWebServices;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1836A62B24342EE300E9CED3 /* DetailStudentViewController.swift in Sources */,
 				18A9FE32242D7C460043808A /* ViewController.swift in Sources */,
 				18A9FE2E242D7C460043808A /* AppDelegate.swift in Sources */,
 				18A9FE5E242D80530043808A /* HttpRequestViewController.swift in Sources */,

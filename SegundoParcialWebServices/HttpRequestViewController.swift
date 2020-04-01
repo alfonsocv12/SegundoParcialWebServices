@@ -23,6 +23,13 @@ class HttpRequestViewController: UIViewController,
         return cell!
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let story = UIStoryboard(name: "Main", bundle: nil)
+        let detail = story.instantiateViewController(identifier: "DetailStudentViewController") as? DetailStudentViewController
+        detail?.titleName = studentElementsArray![indexPath.row].name
+        self.navigationController?.pushViewController(detail!, animated: true)
+    }
+    
     @IBOutlet weak var studentCollection: UICollectionView!
     
     override func viewDidLoad() {
@@ -37,7 +44,6 @@ class HttpRequestViewController: UIViewController,
                 guard let studentElements = response.value else {
                     return
                 }
-                print(studentElements)
                 
                 DispatchQueue.main.async {
                                 self.studentElementsArray = studentElements
