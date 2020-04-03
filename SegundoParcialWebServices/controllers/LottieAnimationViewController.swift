@@ -14,6 +14,10 @@ class LottieAnimationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        playAnimation()
+    }
+    
+    private func playAnimation(){
         let animationView = AnimationView(name: "servishero-loading")
         animationView.frame = CGRect(x: 0, y: 0, width: 400, height: 400)
         animationView.center = self.view.center
@@ -21,7 +25,9 @@ class LottieAnimationViewController: UIViewController {
         
         view.addSubview(animationView)
         
+        animationView.loopMode = LottieLoopMode.loop
         animationView.play()
+        
     }
 
 }
