@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		18116E202437067E00743A79 /* ShakeMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18116E1F2437067E00743A79 /* ShakeMeViewController.swift */; };
+		18116E2524370FB700743A79 /* HttpRequest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18116E2424370FB700743A79 /* HttpRequest.storyboard */; };
 		1836A62B24342EE300E9CED3 /* DetailStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836A62A24342EE300E9CED3 /* DetailStudentViewController.swift */; };
+		185FC7492437152B00FFD180 /* Shake.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185FC7482437152B00FFD180 /* Shake.storyboard */; };
 		18A9FE2E242D7C460043808A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE2D242D7C460043808A /* AppDelegate.swift */; };
 		18A9FE30242D7C460043808A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE2F242D7C460043808A /* SceneDelegate.swift */; };
 		18A9FE32242D7C460043808A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE31242D7C460043808A /* ViewController.swift */; };
@@ -45,7 +47,9 @@
 /* Begin PBXFileReference section */
 		08317687319EA96888B48539 /* Pods-SegundoParcialWebServicesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegundoParcialWebServicesTests.debug.xcconfig"; path = "Target Support Files/Pods-SegundoParcialWebServicesTests/Pods-SegundoParcialWebServicesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		18116E1F2437067E00743A79 /* ShakeMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeMeViewController.swift; sourceTree = "<group>"; };
+		18116E2424370FB700743A79 /* HttpRequest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HttpRequest.storyboard; sourceTree = "<group>"; };
 		1836A62A24342EE300E9CED3 /* DetailStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStudentViewController.swift; sourceTree = "<group>"; };
+		185FC7482437152B00FFD180 /* Shake.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shake.storyboard; sourceTree = "<group>"; };
 		18A9FE2A242D7C460043808A /* SegundoParcialWebServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegundoParcialWebServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A9FE2D242D7C460043808A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A9FE2F242D7C460043808A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 			children = (
 				18A9FE38242D7C490043808A /* LaunchScreen.storyboard */,
 				18A9FE33242D7C460043808A /* Main.storyboard */,
+				18116E2424370FB700743A79 /* HttpRequest.storyboard */,
+				185FC7482437152B00FFD180 /* Shake.storyboard */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -315,7 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A9FE3A242D7C490043808A /* LaunchScreen.storyboard in Resources */,
+				185FC7492437152B00FFD180 /* Shake.storyboard in Resources */,
 				18A9FE37242D7C490043808A /* Assets.xcassets in Resources */,
+				18116E2524370FB700743A79 /* HttpRequest.storyboard in Resources */,
 				18A9FE35242D7C460043808A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

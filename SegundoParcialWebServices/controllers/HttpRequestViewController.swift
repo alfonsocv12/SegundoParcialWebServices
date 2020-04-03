@@ -24,7 +24,7 @@ class HttpRequestViewController: UIViewController,
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let story = UIStoryboard(name: "Main", bundle: nil)
+        let story = UIStoryboard(name: "HttpRequest", bundle: nil)
         let detail = story.instantiateViewController(identifier: "DetailStudentViewController") as? DetailStudentViewController
         detail?.titleName = studentElementsArray![indexPath.row].name
         self.navigationController?.pushViewController(detail!, animated: true)
