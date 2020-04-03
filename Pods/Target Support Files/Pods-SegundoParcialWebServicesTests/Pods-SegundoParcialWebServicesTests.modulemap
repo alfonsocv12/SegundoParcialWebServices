@@ -1,6 +1,0 @@
-framework module Pods_SegundoParcialWebServicesTests {
-  umbrella header "Pods-SegundoParcialWebServicesTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

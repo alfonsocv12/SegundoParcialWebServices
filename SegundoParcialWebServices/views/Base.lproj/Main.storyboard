@@ -25,6 +25,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZT-Am-GDU">
                                 <rect key="frame" x="152" y="122" width="110" height="30"/>
                                 <state key="normal" title="Lottie animation"/>
+                                <connections>
+                                    <segue destination="NCA-Yq-ahg" kind="show" id="3gX-37-Xsi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCI-oi-HeW">
                                 <rect key="frame" x="184" y="156" width="46" height="30"/>
@@ -90,7 +93,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jmz-qC-z5e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1636" y="158"/>
+            <point key="canvasLocation" x="1616" y="-100"/>
+        </scene>
+        <!--LottieAnimationStoryBoard-->
+        <scene sceneID="GaR-4t-h7p">
+            <objects>
+                <viewControllerPlaceholder storyboardName="LottieAnimationStoryboard" referencedIdentifier="LottieAnimationStoryBoard" id="NCA-Yq-ahg" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="D3n-1i-tOS"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ggq-ym-4TU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1659" y="-54"/>
         </scene>
     </scenes>
 </document>

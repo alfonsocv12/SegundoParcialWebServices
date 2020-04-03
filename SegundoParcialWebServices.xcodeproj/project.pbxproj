@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180B2F9F2437B11700B94259 /* servishero-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 180B2F9E2437B11700B94259 /* servishero-loading.json */; };
+		180B2FA12437B3B400B94259 /* LottieAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B2FA02437B3B400B94259 /* LottieAnimationViewController.swift */; };
+		180B2FA32437B3C900B94259 /* LottieAnimationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180B2FA22437B3C900B94259 /* LottieAnimationStoryboard.storyboard */; };
 		18116E202437067E00743A79 /* ShakeMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18116E1F2437067E00743A79 /* ShakeMeViewController.swift */; };
 		18116E2524370FB700743A79 /* HttpRequest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18116E2424370FB700743A79 /* HttpRequest.storyboard */; };
 		1836A62B24342EE300E9CED3 /* DetailStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836A62A24342EE300E9CED3 /* DetailStudentViewController.swift */; };
@@ -46,6 +49,9 @@
 
 /* Begin PBXFileReference section */
 		08317687319EA96888B48539 /* Pods-SegundoParcialWebServicesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegundoParcialWebServicesTests.debug.xcconfig"; path = "Target Support Files/Pods-SegundoParcialWebServicesTests/Pods-SegundoParcialWebServicesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		180B2F9E2437B11700B94259 /* servishero-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "servishero-loading.json"; sourceTree = "<group>"; };
+		180B2FA02437B3B400B94259 /* LottieAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationViewController.swift; sourceTree = "<group>"; };
+		180B2FA22437B3C900B94259 /* LottieAnimationStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LottieAnimationStoryboard.storyboard; sourceTree = "<group>"; };
 		18116E1F2437067E00743A79 /* ShakeMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeMeViewController.swift; sourceTree = "<group>"; };
 		18116E2424370FB700743A79 /* HttpRequest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HttpRequest.storyboard; sourceTree = "<group>"; };
 		1836A62A24342EE300E9CED3 /* DetailStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStudentViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +119,7 @@
 				18A9FE61242D83B00043808A /* StudentCollectionViewCell.swift */,
 				18A9FE5D242D80530043808A /* HttpRequestViewController.swift */,
 				18A9FE31242D7C460043808A /* ViewController.swift */,
+				180B2FA02437B3B400B94259 /* LottieAnimationViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -132,6 +139,7 @@
 				18A9FE33242D7C460043808A /* Main.storyboard */,
 				18116E2424370FB700743A79 /* HttpRequest.storyboard */,
 				185FC7482437152B00FFD180 /* Shake.storyboard */,
+				180B2FA22437B3C900B94259 /* LottieAnimationStoryboard.storyboard */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -168,6 +176,7 @@
 				18A9FE2F242D7C460043808A /* SceneDelegate.swift */,
 				18A9FE36242D7C490043808A /* Assets.xcassets */,
 				18A9FE3B242D7C490043808A /* Info.plist */,
+				180B2F9E2437B11700B94259 /* servishero-loading.json */,
 			);
 			path = SegundoParcialWebServices;
 			sourceTree = "<group>";
@@ -322,6 +331,8 @@
 			files = (
 				18A9FE3A242D7C490043808A /* LaunchScreen.storyboard in Resources */,
 				185FC7492437152B00FFD180 /* Shake.storyboard in Resources */,
+				180B2FA32437B3C900B94259 /* LottieAnimationStoryboard.storyboard in Resources */,
+				180B2F9F2437B11700B94259 /* servishero-loading.json in Resources */,
 				18A9FE37242D7C490043808A /* Assets.xcassets in Resources */,
 				18116E2524370FB700743A79 /* HttpRequest.storyboard in Resources */,
 				18A9FE35242D7C460043808A /* Main.storyboard in Resources */,
@@ -426,6 +437,7 @@
 				18A9FE60242D810C0043808A /* Student.swift in Sources */,
 				18A9FE62242D83B00043808A /* StudentCollectionViewCell.swift in Sources */,
 				18A9FE30242D7C460043808A /* SceneDelegate.swift in Sources */,
+				180B2FA12437B3B400B94259 /* LottieAnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

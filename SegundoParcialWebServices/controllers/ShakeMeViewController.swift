@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Lottie
 
 class ShakeMeViewController: UIViewController {
     @IBOutlet weak var shakeLabel: UILabel!
@@ -23,7 +24,15 @@ class ShakeMeViewController: UIViewController {
     
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if motion == .motionShake {
-            shakeLabel.text = "Shaken, not stirred"
+            animationLabel()
+        }
+    }
+    
+    func animationLabel(){
+        self.shakeLabel.text = "Shaken, not stirred"
+        let startAnimationView = AnimationView(name: "FirstText")
+        startAnimationView.play { (finished) in
+            self.shakeLabel.text = "Shaken, not stirred"
         }
     }
 }
