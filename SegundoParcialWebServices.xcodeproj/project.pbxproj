@@ -124,6 +124,7 @@
 		18116E2324370F0700743A79 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				18A9FE38242D7C490043808A /* LaunchScreen.storyboard */,
 				18A9FE33242D7C460043808A /* Main.storyboard */,
 			);
 			path = views;
@@ -160,7 +161,6 @@
 				18A9FE2D242D7C460043808A /* AppDelegate.swift */,
 				18A9FE2F242D7C460043808A /* SceneDelegate.swift */,
 				18A9FE36242D7C490043808A /* Assets.xcassets */,
-				18A9FE38242D7C490043808A /* LaunchScreen.storyboard */,
 				18A9FE3B242D7C490043808A /* Info.plist */,
 			);
 			path = SegundoParcialWebServices;
