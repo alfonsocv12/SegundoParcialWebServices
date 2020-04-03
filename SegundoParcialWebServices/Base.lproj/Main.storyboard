@@ -160,8 +160,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqh-Yn-eLG">
-                                <rect key="frame" x="169" y="93" width="76" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqh-Yn-eLG">
+                                <rect key="frame" x="20" y="138" width="374" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -169,9 +169,9 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="yqh-Yn-eLG" firstAttribute="leading" secondItem="8yg-uN-X7R" secondAttribute="leading" constant="169" id="aa7-VB-qfW"/>
-                            <constraint firstItem="8yg-uN-X7R" firstAttribute="trailing" secondItem="yqh-Yn-eLG" secondAttribute="trailing" constant="169" id="cM7-A8-deB"/>
-                            <constraint firstItem="yqh-Yn-eLG" firstAttribute="top" secondItem="8yg-uN-X7R" secondAttribute="top" constant="5" id="hUJ-S9-8H6"/>
+                            <constraint firstItem="yqh-Yn-eLG" firstAttribute="leading" secondItem="8yg-uN-X7R" secondAttribute="leading" constant="20" id="HO5-dh-4j8"/>
+                            <constraint firstItem="yqh-Yn-eLG" firstAttribute="top" secondItem="8yg-uN-X7R" secondAttribute="top" constant="50" id="hUJ-S9-8H6"/>
+                            <constraint firstItem="8yg-uN-X7R" firstAttribute="trailing" secondItem="yqh-Yn-eLG" secondAttribute="trailing" constant="20" id="kOz-0S-ZuV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8yg-uN-X7R"/>
                     </view>
