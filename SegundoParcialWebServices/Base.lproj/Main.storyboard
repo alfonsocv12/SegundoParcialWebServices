@@ -27,14 +27,24 @@
                                 <rect key="frame" x="152" y="122" width="110" height="30"/>
                                 <state key="normal" title="Lottie animation"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCI-oi-HeW">
+                                <rect key="frame" x="184" y="156" width="46" height="30"/>
+                                <state key="normal" title="Shake"/>
+                                <connections>
+                                    <segue destination="Fxv-bm-ovU" kind="show" id="32v-us-cP3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="CZT-Am-GDU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="1Qd-BP-3NH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mCI-oi-HeW" secondAttribute="trailing" constant="184" id="9ka-LU-hDs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="59Q-hh-XqJ" secondAttribute="trailing" constant="125" id="SOV-ZZ-ZIv"/>
                             <constraint firstItem="CZT-Am-GDU" firstAttribute="top" secondItem="59Q-hh-XqJ" secondAttribute="bottom" constant="4" id="Ye1-TZ-QdY"/>
                             <constraint firstItem="59Q-hh-XqJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="ZRW-wL-sYM"/>
+                            <constraint firstItem="mCI-oi-HeW" firstAttribute="top" secondItem="CZT-Am-GDU" secondAttribute="bottom" constant="4" id="bC8-z8-vbN"/>
                             <constraint firstItem="59Q-hh-XqJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gdf-Gv-lPJ"/>
+                            <constraint firstItem="mCI-oi-HeW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="184" id="uc6-HX-DRm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CZT-Am-GDU" secondAttribute="trailing" constant="152" id="uvH-NW-ae2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -141,6 +151,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tdq-Rl-ExM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2282.608695652174" y="137.94642857142856"/>
+        </scene>
+        <!--Shake Me View Controller-->
+        <scene sceneID="Uik-07-Ysn">
+            <objects>
+                <viewController id="Fxv-bm-ovU" customClass="ShakeMeViewController" customModule="SegundoParcialWebServices" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v8o-FN-Hzz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqh-Yn-eLG">
+                                <rect key="frame" x="169" y="93" width="76" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yqh-Yn-eLG" firstAttribute="leading" secondItem="8yg-uN-X7R" secondAttribute="leading" constant="169" id="aa7-VB-qfW"/>
+                            <constraint firstItem="8yg-uN-X7R" firstAttribute="trailing" secondItem="yqh-Yn-eLG" secondAttribute="trailing" constant="169" id="cM7-A8-deB"/>
+                            <constraint firstItem="yqh-Yn-eLG" firstAttribute="top" secondItem="8yg-uN-X7R" secondAttribute="top" constant="5" id="hUJ-S9-8H6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8yg-uN-X7R"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="S7p-aI-vC3"/>
+                    <connections>
+                        <outlet property="shakeLabel" destination="yqh-Yn-eLG" id="aa4-JE-6MJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jf2-oQ-FIq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2282.608695652174" y="868.52678571428567"/>
         </scene>
         <!--Detail Student View Controller-->
         <scene sceneID="th6-tG-mbg">
