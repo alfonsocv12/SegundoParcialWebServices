@@ -7,6 +7,7 @@ target 'SegundoParcialWebServices' do
   pod 'Alamofire', '~> 5.0'
   pod 'Kingfisher', '~> 5.0'
   pod 'lottie-ios'
+  pod 'SwiftySound'
 
   # Pods for SegundoParcialWebServices
 

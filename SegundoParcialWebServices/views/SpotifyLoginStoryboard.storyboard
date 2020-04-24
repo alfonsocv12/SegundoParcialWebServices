@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Spotify Login View Controller-->
+        <scene sceneID="qpf-H8-CKP">
+            <objects>
+                <viewController storyboardIdentifier="SpotifyLoginStoryboard" id="rZ4-be-pOS" customClass="SpotifyLoginViewController" customModule="SegundoParcialWebServices" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lLd-Jn-mGo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meh-TC-y1G">
+                                <rect key="frame" x="0.0" y="811" width="207" height="38"/>
+                                <color key="backgroundColor" red="0.31868831320000002" green="0.31815774740000002" blue="0.32742541159999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="LOG IN">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spotify" translatesAutoresizingMaskIntoConstraints="NO" id="Bhw-ev-HNp">
+                                <rect key="frame" x="87" y="123" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDH-kv-7lJ">
+                                <rect key="frame" x="207" y="811" width="207" height="38"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="SING UP">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.37717630079999998" green="0.37654836159999999" blue="0.38751689480000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="meh-TC-y1G" firstAttribute="width" secondItem="lLd-Jn-mGo" secondAttribute="width" multiplier="0.5" id="7mk-8K-3f8"/>
+                            <constraint firstItem="7eG-hE-qf5" firstAttribute="bottom" secondItem="meh-TC-y1G" secondAttribute="bottom" constant="13" id="ABW-23-NOl"/>
+                            <constraint firstItem="7eG-hE-qf5" firstAttribute="bottom" secondItem="eDH-kv-7lJ" secondAttribute="bottom" constant="13" id="KVR-81-Qkf"/>
+                            <constraint firstItem="7eG-hE-qf5" firstAttribute="trailing" secondItem="eDH-kv-7lJ" secondAttribute="trailing" id="OrL-iZ-8Dz"/>
+                            <constraint firstItem="meh-TC-y1G" firstAttribute="leading" secondItem="7eG-hE-qf5" secondAttribute="leading" id="W5u-fP-YUx"/>
+                            <constraint firstItem="meh-TC-y1G" firstAttribute="top" secondItem="7eG-hE-qf5" secondAttribute="top" constant="767" id="gBU-zd-2UV"/>
+                            <constraint firstItem="eDH-kv-7lJ" firstAttribute="width" secondItem="lLd-Jn-mGo" secondAttribute="width" multiplier="0.5" id="gGa-J0-Cv1"/>
+                            <constraint firstItem="eDH-kv-7lJ" firstAttribute="top" secondItem="7eG-hE-qf5" secondAttribute="top" constant="767" id="zBd-ns-hXE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7eG-hE-qf5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ivZ-2i-drj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57.971014492753625" y="136.60714285714286"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="spotify" width="218" height="66"/>
+    </resources>
+</document>

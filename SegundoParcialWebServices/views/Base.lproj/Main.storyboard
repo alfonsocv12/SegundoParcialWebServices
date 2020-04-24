@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ikd-0S-pxm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -36,16 +36,36 @@
                                     <segue destination="doA-aS-Lmw" kind="show" id="8Jm-7d-KFy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlh-TO-C8g">
+                                <rect key="frame" x="164" y="190" width="86" height="30"/>
+                                <state key="normal" title="Spotify login"/>
+                                <connections>
+                                    <segue destination="MZX-id-jwh" kind="show" id="WdW-Zm-xxB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sW9-t2-RwI">
+                                <rect key="frame" x="168" y="224" width="78" height="30"/>
+                                <state key="normal" title="BaseBall"/>
+                                <connections>
+                                    <segue destination="zoI-XA-jAy" kind="show" id="XJo-RY-mns"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="CZT-Am-GDU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="1Qd-BP-3NH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mCI-oi-HeW" secondAttribute="trailing" constant="184" id="9ka-LU-hDs"/>
+                            <constraint firstItem="dlh-TO-C8g" firstAttribute="top" secondItem="mCI-oi-HeW" secondAttribute="bottom" constant="4" id="L4i-Zm-yyO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="59Q-hh-XqJ" secondAttribute="trailing" constant="125" id="SOV-ZZ-ZIv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sW9-t2-RwI" secondAttribute="trailing" constant="168" id="Se1-me-Q1G"/>
+                            <constraint firstItem="sW9-t2-RwI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="168" id="YN1-dB-C0N"/>
                             <constraint firstItem="CZT-Am-GDU" firstAttribute="top" secondItem="59Q-hh-XqJ" secondAttribute="bottom" constant="4" id="Ye1-TZ-QdY"/>
                             <constraint firstItem="59Q-hh-XqJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="ZRW-wL-sYM"/>
                             <constraint firstItem="mCI-oi-HeW" firstAttribute="top" secondItem="CZT-Am-GDU" secondAttribute="bottom" constant="4" id="bC8-z8-vbN"/>
+                            <constraint firstItem="sW9-t2-RwI" firstAttribute="top" secondItem="dlh-TO-C8g" secondAttribute="bottom" constant="4" id="dlY-s0-yod"/>
                             <constraint firstItem="59Q-hh-XqJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gdf-Gv-lPJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dlh-TO-C8g" secondAttribute="trailing" constant="164" id="ppK-wu-aUa"/>
+                            <constraint firstItem="dlh-TO-C8g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="uAa-pG-kMz"/>
                             <constraint firstItem="mCI-oi-HeW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="184" id="uc6-HX-DRm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CZT-Am-GDU" secondAttribute="trailing" constant="152" id="uvH-NW-ae2"/>
                         </constraints>
@@ -104,6 +124,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggq-ym-4TU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1659" y="-54"/>
+        </scene>
+        <!--SpotifyLoginStoryboard-->
+        <scene sceneID="JI9-HL-uoL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SpotifyLoginStoryboard" referencedIdentifier="SpotifyLoginStoryboard" id="MZX-id-jwh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="OSZ-5O-biv"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AfS-A9-M7I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1644" y="-4"/>
+        </scene>
+        <!--BaseBallStoryBoard-->
+        <scene sceneID="R1j-lA-9we">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BaseBallStoryboard" referencedIdentifier="BaseBallStoryBoard" id="zoI-XA-jAy" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gAn-mp-8Ui"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1bI-Cv-l2c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1627" y="50"/>
         </scene>
     </scenes>
 </document>

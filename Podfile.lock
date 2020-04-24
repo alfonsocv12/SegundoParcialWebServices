@@ -4,23 +4,27 @@ PODS:
     - Kingfisher/Core (= 5.13.3)
   - Kingfisher/Core (5.13.3)
   - lottie-ios (3.1.6)
+  - SwiftySound (1.2.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0)
   - Kingfisher (~> 5.0)
   - lottie-ios
+  - SwiftySound
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - Kingfisher
     - lottie-ios
+    - SwiftySound
 
 SPEC CHECKSUMS:
   Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
   Kingfisher: d2b3d6a7200c93b34de9afcdf25c8dd9282ec277
   lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  SwiftySound: 9eb28bb14edb601b40027e44319e0ef8383f88bf
 
-PODFILE CHECKSUM: 91bcc23ef03118eb4a4c7d928889e2e8e7baeb0c
+PODFILE CHECKSUM: c2b6f6d60d0127306ad230543677212fd731eb81
 
 COCOAPODS: 1.9.1

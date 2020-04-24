@@ -14,6 +14,7 @@
 		18116E2524370FB700743A79 /* HttpRequest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18116E2424370FB700743A79 /* HttpRequest.storyboard */; };
 		1836A62B24342EE300E9CED3 /* DetailStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836A62A24342EE300E9CED3 /* DetailStudentViewController.swift */; };
 		185FC7492437152B00FFD180 /* Shake.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185FC7482437152B00FFD180 /* Shake.storyboard */; };
+		189CC50C245275810050E113 /* Technology-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189CC50B24526ED90050E113 /* Technology-Regular.ttf */; };
 		18A9FE2E242D7C460043808A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE2D242D7C460043808A /* AppDelegate.swift */; };
 		18A9FE30242D7C460043808A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE2F242D7C460043808A /* SceneDelegate.swift */; };
 		18A9FE32242D7C460043808A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE31242D7C460043808A /* ViewController.swift */; };
@@ -25,6 +26,14 @@
 		18A9FE5E242D80530043808A /* HttpRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE5D242D80530043808A /* HttpRequestViewController.swift */; };
 		18A9FE60242D810C0043808A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE5F242D810C0043808A /* Student.swift */; };
 		18A9FE62242D83B00043808A /* StudentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FE61242D83B00043808A /* StudentCollectionViewCell.swift */; };
+		18AC586B2452683D00C47449 /* BaseBallStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC586A2452683D00C47449 /* BaseBallStoryboard.storyboard */; };
+		18AC586D2452685400C47449 /* BaseBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AC586C2452685400C47449 /* BaseBallViewController.swift */; };
+		18AC586F24526A4600C47449 /* endgame.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18AC586E24526A4600C47449 /* endgame.wav */; };
+		18DBA5D4244FC05900F28384 /* SpotifyLoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBA5D3244FC05900F28384 /* SpotifyLoginStoryboard.storyboard */; };
+		18DBA5D6244FC07D00F28384 /* SpotifyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBA5D5244FC07D00F28384 /* SpotifyLoginViewController.swift */; };
+		18DBA5DA244FCB2600F28384 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBA5D9244FCB2600F28384 /* VideoSplashViewController.swift */; };
+		18DBA5DC244FCB2E00F28384 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBA5DB244FCB2E00F28384 /* VideoCutter.swift */; };
+		18DBA5DE244FCEC300F28384 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18DBA5DD244FCEC300F28384 /* moments.mp4 */; };
 		611D7DB0B7CBC3B53AB3A4BA /* libPods-SegundoParcialWebServicesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C107F7D3B82DD63B51495267 /* libPods-SegundoParcialWebServicesTests.a */; };
 		728AE58025522793FEE36BAD /* libPods-SegundoParcialWebServices-SegundoParcialWebServicesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E99956E3667FC4855CA59CBD /* libPods-SegundoParcialWebServices-SegundoParcialWebServicesUITests.a */; };
 		82626BCACB06717AEA0FAE36 /* libPods-SegundoParcialWebServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A46F237B5A29B27884AB5B48 /* libPods-SegundoParcialWebServices.a */; };
@@ -56,6 +65,10 @@
 		18116E2424370FB700743A79 /* HttpRequest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HttpRequest.storyboard; sourceTree = "<group>"; };
 		1836A62A24342EE300E9CED3 /* DetailStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStudentViewController.swift; sourceTree = "<group>"; };
 		185FC7482437152B00FFD180 /* Shake.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shake.storyboard; sourceTree = "<group>"; };
+		189CC50824526EB40050E113 /* Technology-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Technology-Bold.ttf"; sourceTree = "<group>"; };
+		189CC50924526EB40050E113 /* Technology-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Technology-BoldItalic.ttf"; sourceTree = "<group>"; };
+		189CC50A24526ED90050E113 /* Technology-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Technology-Italic.ttf"; sourceTree = "<group>"; };
+		189CC50B24526ED90050E113 /* Technology-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Technology-Regular.ttf"; sourceTree = "<group>"; };
 		18A9FE2A242D7C460043808A /* SegundoParcialWebServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegundoParcialWebServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A9FE2D242D7C460043808A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A9FE2F242D7C460043808A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +86,14 @@
 		18A9FE5D242D80530043808A /* HttpRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestViewController.swift; sourceTree = "<group>"; };
 		18A9FE5F242D810C0043808A /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		18A9FE61242D83B00043808A /* StudentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCollectionViewCell.swift; sourceTree = "<group>"; };
+		18AC586A2452683D00C47449 /* BaseBallStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BaseBallStoryboard.storyboard; sourceTree = "<group>"; };
+		18AC586C2452685400C47449 /* BaseBallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseBallViewController.swift; sourceTree = "<group>"; };
+		18AC586E24526A4600C47449 /* endgame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = endgame.wav; sourceTree = "<group>"; };
+		18DBA5D3244FC05900F28384 /* SpotifyLoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpotifyLoginStoryboard.storyboard; sourceTree = "<group>"; };
+		18DBA5D5244FC07D00F28384 /* SpotifyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLoginViewController.swift; sourceTree = "<group>"; };
+		18DBA5D9244FCB2600F28384 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		18DBA5DB244FCB2E00F28384 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
+		18DBA5DD244FCEC300F28384 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
 		8E7D8BCFF41E34E84624794C /* Pods-SegundoParcialWebServices-SegundoParcialWebServicesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegundoParcialWebServices-SegundoParcialWebServicesUITests.debug.xcconfig"; path = "Target Support Files/Pods-SegundoParcialWebServices-SegundoParcialWebServicesUITests/Pods-SegundoParcialWebServices-SegundoParcialWebServicesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		98362EA77415EF5D5C33661B /* Pods-SegundoParcialWebServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegundoParcialWebServices.debug.xcconfig"; path = "Target Support Files/Pods-SegundoParcialWebServices/Pods-SegundoParcialWebServices.debug.xcconfig"; sourceTree = "<group>"; };
 		9F4A37042D2A16C0003942F6 /* Pods-SegundoParcialWebServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegundoParcialWebServices.release.xcconfig"; path = "Target Support Files/Pods-SegundoParcialWebServices/Pods-SegundoParcialWebServices.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,15 +132,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180B2FA42437BEBC00B94259 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				18A9FE61242D83B00043808A /* StudentCollectionViewCell.swift */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
 		18116E2124370E3F00743A79 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				18DBA5DB244FCB2E00F28384 /* VideoCutter.swift */,
+				18DBA5D9244FCB2600F28384 /* VideoSplashViewController.swift */,
 				18116E1F2437067E00743A79 /* ShakeMeViewController.swift */,
 				1836A62A24342EE300E9CED3 /* DetailStudentViewController.swift */,
-				18A9FE61242D83B00043808A /* StudentCollectionViewCell.swift */,
 				18A9FE5D242D80530043808A /* HttpRequestViewController.swift */,
 				18A9FE31242D7C460043808A /* ViewController.swift */,
 				180B2FA02437B3B400B94259 /* LottieAnimationViewController.swift */,
+				18DBA5D5244FC07D00F28384 /* SpotifyLoginViewController.swift */,
+				18AC586C2452685400C47449 /* BaseBallViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -136,12 +168,33 @@
 			isa = PBXGroup;
 			children = (
 				18A9FE38242D7C490043808A /* LaunchScreen.storyboard */,
+				18DBA5D3244FC05900F28384 /* SpotifyLoginStoryboard.storyboard */,
 				18A9FE33242D7C460043808A /* Main.storyboard */,
 				18116E2424370FB700743A79 /* HttpRequest.storyboard */,
 				185FC7482437152B00FFD180 /* Shake.storyboard */,
 				180B2FA22437B3C900B94259 /* LottieAnimationStoryboard.storyboard */,
+				18AC586A2452683D00C47449 /* BaseBallStoryboard.storyboard */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		189CC50624526E990050E113 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				189CC50724526EA10050E113 /* baseball */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		189CC50724526EA10050E113 /* baseball */ = {
+			isa = PBXGroup;
+			children = (
+				189CC50824526EB40050E113 /* Technology-Bold.ttf */,
+				189CC50924526EB40050E113 /* Technology-BoldItalic.ttf */,
+				189CC50A24526ED90050E113 /* Technology-Italic.ttf */,
+				189CC50B24526ED90050E113 /* Technology-Regular.ttf */,
+			);
+			path = baseball;
 			sourceTree = "<group>";
 		};
 		18A9FE21242D7C460043808A = {
@@ -169,6 +222,8 @@
 		18A9FE2C242D7C460043808A /* SegundoParcialWebServices */ = {
 			isa = PBXGroup;
 			children = (
+				189CC50624526E990050E113 /* Fonts */,
+				180B2FA42437BEBC00B94259 /* xibs */,
 				18116E2324370F0700743A79 /* views */,
 				18116E2224370EF200743A79 /* models */,
 				18116E2124370E3F00743A79 /* controllers */,
@@ -177,6 +232,8 @@
 				18A9FE36242D7C490043808A /* Assets.xcassets */,
 				18A9FE3B242D7C490043808A /* Info.plist */,
 				180B2F9E2437B11700B94259 /* servishero-loading.json */,
+				18DBA5DD244FCEC300F28384 /* moments.mp4 */,
+				18AC586E24526A4600C47449 /* endgame.wav */,
 			);
 			path = SegundoParcialWebServices;
 			sourceTree = "<group>";
@@ -329,12 +386,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DBA5DE244FCEC300F28384 /* moments.mp4 in Resources */,
+				18DBA5D4244FC05900F28384 /* SpotifyLoginStoryboard.storyboard in Resources */,
 				18A9FE3A242D7C490043808A /* LaunchScreen.storyboard in Resources */,
+				18AC586B2452683D00C47449 /* BaseBallStoryboard.storyboard in Resources */,
 				185FC7492437152B00FFD180 /* Shake.storyboard in Resources */,
 				180B2FA32437B3C900B94259 /* LottieAnimationStoryboard.storyboard in Resources */,
 				180B2F9F2437B11700B94259 /* servishero-loading.json in Resources */,
 				18A9FE37242D7C490043808A /* Assets.xcassets in Resources */,
 				18116E2524370FB700743A79 /* HttpRequest.storyboard in Resources */,
+				189CC50C245275810050E113 /* Technology-Regular.ttf in Resources */,
+				18AC586F24526A4600C47449 /* endgame.wav in Resources */,
 				18A9FE35242D7C460043808A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,15 +491,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DBA5D6244FC07D00F28384 /* SpotifyLoginViewController.swift in Sources */,
 				1836A62B24342EE300E9CED3 /* DetailStudentViewController.swift in Sources */,
 				18A9FE32242D7C460043808A /* ViewController.swift in Sources */,
 				18A9FE2E242D7C460043808A /* AppDelegate.swift in Sources */,
 				18116E202437067E00743A79 /* ShakeMeViewController.swift in Sources */,
 				18A9FE5E242D80530043808A /* HttpRequestViewController.swift in Sources */,
+				18DBA5DC244FCB2E00F28384 /* VideoCutter.swift in Sources */,
 				18A9FE60242D810C0043808A /* Student.swift in Sources */,
 				18A9FE62242D83B00043808A /* StudentCollectionViewCell.swift in Sources */,
+				18DBA5DA244FCB2600F28384 /* VideoSplashViewController.swift in Sources */,
 				18A9FE30242D7C460043808A /* SceneDelegate.swift in Sources */,
 				180B2FA12437B3B400B94259 /* LottieAnimationViewController.swift in Sources */,
+				18AC586D2452685400C47449 /* BaseBallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

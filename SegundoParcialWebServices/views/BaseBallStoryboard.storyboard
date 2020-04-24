@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Technology-Regular.ttf">
+            <string>Technology-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Base Ball View Controller-->
+        <scene sceneID="UEF-4a-KMe">
+            <objects>
+                <viewController storyboardIdentifier="BaseBallStoryBoard" id="WQR-2Z-kMi" customClass="BaseBallViewController" customModule="SegundoParcialWebServices" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jke-q1-o6H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Och-Bv-Q2J">
+                                <rect key="frame" x="121" y="293" width="172" height="175"/>
+                                <fontDescription key="fontDescription" name="Technology-Regular" family="Technology" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdK-RY-OC3">
+                                <rect key="frame" x="52" y="742" width="73" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startTimer:" destination="WQR-2Z-kMi" eventType="touchUpInside" id="fOf-Vv-laK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZpL-om-uiU">
+                                <rect key="frame" x="260" y="742" width="102" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="Restart">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="Restart:" destination="WQR-2Z-kMi" eventType="touchUpInside" id="Lub-6l-9TN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SdK-RY-OC3" firstAttribute="leading" secondItem="eUA-6f-yGP" secondAttribute="leading" constant="52" id="3mK-Q5-LrY"/>
+                            <constraint firstItem="ZpL-om-uiU" firstAttribute="top" secondItem="Och-Bv-Q2J" secondAttribute="bottom" constant="274" id="Fcy-WS-8Fc"/>
+                            <constraint firstItem="eUA-6f-yGP" firstAttribute="trailing" secondItem="Och-Bv-Q2J" secondAttribute="trailing" constant="121" id="K58-hb-w1S"/>
+                            <constraint firstItem="eUA-6f-yGP" firstAttribute="bottom" secondItem="Och-Bv-Q2J" secondAttribute="bottom" constant="394" id="So7-m7-4CP"/>
+                            <constraint firstItem="Och-Bv-Q2J" firstAttribute="leading" secondItem="eUA-6f-yGP" secondAttribute="leading" constant="121" id="Z0f-sQ-iqc"/>
+                            <constraint firstItem="Och-Bv-Q2J" firstAttribute="top" secondItem="eUA-6f-yGP" secondAttribute="top" constant="249" id="m5J-3r-Erf"/>
+                            <constraint firstItem="SdK-RY-OC3" firstAttribute="top" secondItem="Och-Bv-Q2J" secondAttribute="bottom" constant="274" id="qNK-jd-ph7"/>
+                            <constraint firstItem="eUA-6f-yGP" firstAttribute="trailing" secondItem="ZpL-om-uiU" secondAttribute="trailing" constant="52" id="u0g-AW-iS2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eUA-6f-yGP"/>
+                    </view>
+                    <connections>
+                        <outlet property="counterLabel" destination="Och-Bv-Q2J" id="Iq7-kK-qYy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4qf-Io-NIp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20.289855072463769" y="164.73214285714286"/>
+        </scene>
+    </scenes>
+</document>

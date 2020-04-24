@@ -13,7 +13,8 @@ class LottieAnimationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.title = "Lottie animation"
         playAnimation()
     }
     
