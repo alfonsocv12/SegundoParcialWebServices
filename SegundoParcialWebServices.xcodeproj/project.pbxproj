@@ -34,6 +34,7 @@
 		18DBA5DA244FCB2600F28384 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBA5D9244FCB2600F28384 /* VideoSplashViewController.swift */; };
 		18DBA5DC244FCB2E00F28384 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBA5DB244FCB2E00F28384 /* VideoCutter.swift */; };
 		18DBA5DE244FCEC300F28384 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18DBA5DD244FCEC300F28384 /* moments.mp4 */; };
+		18E6D4B9245BAFBC00F33280 /* SwipesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E6D4B8245BAFBC00F33280 /* SwipesStoryboard.storyboard */; };
 		611D7DB0B7CBC3B53AB3A4BA /* libPods-SegundoParcialWebServicesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C107F7D3B82DD63B51495267 /* libPods-SegundoParcialWebServicesTests.a */; };
 		728AE58025522793FEE36BAD /* libPods-SegundoParcialWebServices-SegundoParcialWebServicesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E99956E3667FC4855CA59CBD /* libPods-SegundoParcialWebServices-SegundoParcialWebServicesUITests.a */; };
 		82626BCACB06717AEA0FAE36 /* libPods-SegundoParcialWebServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A46F237B5A29B27884AB5B48 /* libPods-SegundoParcialWebServices.a */; };
@@ -94,6 +95,7 @@
 		18DBA5D9244FCB2600F28384 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
 		18DBA5DB244FCB2E00F28384 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
 		18DBA5DD244FCEC300F28384 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
+		18E6D4B8245BAFBC00F33280 /* SwipesStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SwipesStoryboard.storyboard; sourceTree = "<group>"; };
 		8E7D8BCFF41E34E84624794C /* Pods-SegundoParcialWebServices-SegundoParcialWebServicesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegundoParcialWebServices-SegundoParcialWebServicesUITests.debug.xcconfig"; path = "Target Support Files/Pods-SegundoParcialWebServices-SegundoParcialWebServicesUITests/Pods-SegundoParcialWebServices-SegundoParcialWebServicesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		98362EA77415EF5D5C33661B /* Pods-SegundoParcialWebServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegundoParcialWebServices.debug.xcconfig"; path = "Target Support Files/Pods-SegundoParcialWebServices/Pods-SegundoParcialWebServices.debug.xcconfig"; sourceTree = "<group>"; };
 		9F4A37042D2A16C0003942F6 /* Pods-SegundoParcialWebServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegundoParcialWebServices.release.xcconfig"; path = "Target Support Files/Pods-SegundoParcialWebServices/Pods-SegundoParcialWebServices.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				185FC7482437152B00FFD180 /* Shake.storyboard */,
 				180B2FA22437B3C900B94259 /* LottieAnimationStoryboard.storyboard */,
 				18AC586A2452683D00C47449 /* BaseBallStoryboard.storyboard */,
+				18E6D4B8245BAFBC00F33280 /* SwipesStoryboard.storyboard */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E6D4B9245BAFBC00F33280 /* SwipesStoryboard.storyboard in Resources */,
 				18DBA5DE244FCEC300F28384 /* moments.mp4 in Resources */,
 				18DBA5D4244FC05900F28384 /* SpotifyLoginStoryboard.storyboard in Resources */,
 				18A9FE3A242D7C490043808A /* LaunchScreen.storyboard in Resources */,
